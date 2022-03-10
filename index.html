@@ -4,9 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="styles.css" rel="stylesheet">
+    <script src="sript.js"></script>
+    <title>Javascript quiz</title>
+    
 </head>
-<body>
-    hello
+<body class="correct">
+    <div class="container">
+        <div id="question-container" class="hide">
+            <div id="question">Question</div>
+            <div id="answer-buttons" class="btn-grid"></div>
+            <button class="btn">Answer 1</button>
+            <button class="btn">Answer 2</button>
+            <button class="btn">Answer 3</button>
+            <button class="btn">Answer 4</button>
+        </div>
+        <div class="controls">
+            <button id="start-btn" class="start-btn btn">START</button>
+            <button id="next-btn" class="next-btn btn hide">NEXT</button>
+        </div>
+
+    </div>
 </body>
 </html>
