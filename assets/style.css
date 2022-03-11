@@ -1,6 +1,6 @@
 *, *::before, *::after {
     box-sizing: border-box;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 :root{
@@ -61,8 +61,25 @@ body.wrong {
 
 .btn.correct {
     --hue: var(--hue-correct);
+    color: black;
 }
 
 .btn.wrong {
-    --hue: var(--hue-wrong);
+    --hue: var(--hue-wrong); 
+}
+
+.start-btn, .next-btn {
+font-size: 1.5rem;
+font-weight: bold;
+padding: 10 px 20 px;
+}
+
+.controls {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide {
+    display: none;
 }
